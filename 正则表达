@@ -1,0 +1,5 @@
+导入重新
+行= '123 @ qq.comaaa @ 163.combbb @ 126.comasdfasfs3333 @ adf.com'
+searchObj = re.search（r'（。*）@（。*？）com;（。*）@（。*？）com;（。*）@（。*？）com;（。* ）@（。*？）。com'，line，re.M | re.I）
+如果searchObj：
+    打印（searchObj）
